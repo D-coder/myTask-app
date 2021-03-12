@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+  font-family: 'Oxygen', sans-serif;
+  color: #14213d;
+  
+}
+.layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.listitems{
+  width: 90vw;
+  max-width: 500px;
+  margin-top: 24px;
+  background-color:#fca311;
+
+}
+.listitems>div>button[value="UnDone"] 
+{
+  background-color: #eee;
+  
+
+}
+.layout>div>:nth-child(even){
+  background-color: #ffbb4f;
+}
+
